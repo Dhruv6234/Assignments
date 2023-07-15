@@ -1,0 +1,26 @@
+(01)	What is jQuery?
+
+==>	jQuery is a small, light-weight and fast JavaScript library. It is cross-platform and supports different types of browsers. It is also referred as ?write less do more? because it takes a lot of common tasks that requires many lines of JavaScript code to accomplish, and binds them into methods that can be called with a single line of code whenever needed. It is also very useful to simplify a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+
+(02)	How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?
+
+==>	(A) Applying CSS: You can apply CSS styles to elements using the .css() method. 
+	    For example: $("p").css("background-color", "yellow");
+	
+	(B) Add & Remove Classes: You can add or remove classes from elements using the .addClass() and .removeClass() methods. 
+	    For example: $("p").addClass("highlight");
+			 $("p").removeClass("highlight");
+
+	(C) JQuery Animation: You can perform animations using the .animate() method. This method allows you to animate any CSS property, such as width, height, opacity, etc. 
+	    For example: $("button").click(function(){
+    			    $("p").animate({width: "500px"});
+                         });
+
+(3)	How to create slider with animation? 
+
+==>	Step 1: Come up with a strategy for the slider. You can make as many modifications as you want to Slider Revolution templates. ...
+	Step 2: Update the background image in each slide. ...
+	Step 3: Update the text layers in each slide. ...
+	Step 4: Edit the button text and design in each slide. ...
+	Step 5: Edit the slider navigation.

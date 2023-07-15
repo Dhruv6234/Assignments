@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="x">Dhruv</h3>
+    <h3 class="x">Prajapati</h3>
+    <h3 class="x">Full streak</h3>
+    <h3 class="x">Tops technologies</h3>
+    <button onclick="done()">click</button>
+</body>
+</html>
+<script>
+   
+    
+
+   function done(){
+  let  x = document.querySelectorAll(".x");
+  console.log(x);
+    for(let i=0;i<x.length;i++)
+    {
+        alert(x[i].innerHTML)
+
+    }
+   }
+
+</script>
